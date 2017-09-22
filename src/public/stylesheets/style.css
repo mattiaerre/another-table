@@ -1,8 +1,14 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 5em;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+h1 {
+  color: white;
+  background-color: #da3743;
+  padding: 1em;
 }
