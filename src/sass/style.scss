@@ -9,6 +9,10 @@ body {
   font-family: $fontFamily;
 }
 
+div.welcome {
+  padding: 5em;
+}
+
 div.restaurant-profile-header {
   display: flex;
   background-color: #222;

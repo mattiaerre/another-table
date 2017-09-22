@@ -4,6 +4,10 @@ const router = express.Router();
 
 const restaurants = require('../data/restaurants.json').restaurants;
 
+const PNF = require('google-libphonenumber').PhoneNumberFormat;
+const phoneUtil = require('google-libphonenumber').PhoneNumberUtil.getInstance();
+
+
 const dollars = {
   2: '$$',
   3: '$$$',
@@ -15,6 +19,7 @@ router.get('/:id', (req, res) => {
   const model = Object.assign({}, restaurant);
   model.title = `${restaurant.name} - ${restaurant.city} | AnotherTable`;
   model.price = dollars[restaurant.price];
+  model.phone = phoneUtil.format(phoneUtil.parse(restaurant.phone, 'US'), PNF.INTERNATIONAL);
 
   res.render('restaurant', model);
 });
