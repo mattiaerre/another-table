@@ -13,7 +13,7 @@ Go to http://localhost:3000/restaurant
 
 ### Tasks
 
-- [ ] Fix url `/restaurant` --> `/restaurant/:id` (id = restaurant id, e.g. 1906)
+- [X] Fix url `/restaurant` --> `/restaurant/:id` (id = restaurant id, e.g. 1906)
 
 - [ ] Fix page head `title` tag (e.g. Perry's Union Street - San Francisco | AnotherTable)
 
