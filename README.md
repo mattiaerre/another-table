@@ -19,7 +19,7 @@ Go to http://localhost:3000/restaurant
 
 - [ ] Use the available data to create a restaurant profile header
 
-- [ ] Use `price` to show `$` symbol(s)
+- [X] Use `price` to show `$` symbol(s)
 
 - [ ] Format phone number (e.g. `4153918311` --> `+1 415-648-7600`)
 
