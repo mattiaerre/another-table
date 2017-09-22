@@ -8,7 +8,17 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var restaurant = require('./routes/restaurant');
 
+const sassMiddleware = require('node-sass-middleware');
+
 var app = express();
+
+app.use(sassMiddleware({
+  src: path.join(__dirname, 'sass'),
+  dest: path.join(__dirname, 'public/stylesheets'),
+  debug: true,
+  outputStyle: 'compressed',
+  prefix: '/stylesheets'
+}));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

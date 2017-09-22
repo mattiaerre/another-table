@@ -17,7 +17,7 @@ Go to http://localhost:3000/restaurant
 
 - [X] Fix page head `title` tag (e.g. Perry's Union Street - San Francisco | AnotherTable)
 
-- [ ] Use the available data to create a restaurant profile header
+- [X] Use the available data to create a **nicer** restaurant profile header
 
 - [X] Use `price` to show `$` symbol(s)
 
@@ -29,7 +29,7 @@ Go to http://localhost:3000/restaurant
 
 - [X] Add ESLint (if you like)
 
-- [ ] Add SASS (if you like)
+- [X] Add SASS (if you like)
 
 #### Example
 
