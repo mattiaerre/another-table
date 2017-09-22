@@ -27,7 +27,7 @@ Go to http://localhost:3000/restaurant
 
 - [ ] Add LiveReload (if you like)
 
-- [ ] Add ESLint (if you like)
+- [X] Add ESLint (if you like)
 
 - [ ] Add SASS (if you like)
 
