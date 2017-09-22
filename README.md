@@ -15,7 +15,7 @@ Go to http://localhost:3000/restaurant
 
 - [ ] Fix url `/restaurant` --> `/restaurant/:id` (id = restaurant id, e.g. 1906)
 
-- [ ] Fix page head `title` tag
+- [ ] Fix page head `title` tag (e.g. Perry's Union Street - San Francisco | AnotherTable)
 
 - [ ] Use the available data to create a restaurant profile header
 
