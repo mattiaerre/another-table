@@ -23,7 +23,7 @@ Go to http://localhost:3000/restaurant
 
 - [ ] Format phone number (e.g. `4153918311` --> `+1 415-648-7600`)
 
-- [ ] Add Node.js watcher (if you like)
+- [X] Add Node.js watcher (if you like)
 
 - [ ] Add LiveReload (if you like)
 
