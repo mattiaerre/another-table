@@ -19,6 +19,8 @@ Go to http://localhost:3000/restaurant
 
 - [ ] Use the available data to create a restaurant profile header
 
+- [ ] Use `price` to show `$` symbol(s)
+
 - [ ] Add Node.js watcher (if you like)
 
 - [ ] Add LiveReload (if you like)
