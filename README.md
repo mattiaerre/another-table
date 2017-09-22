@@ -30,3 +30,7 @@ Go to http://localhost:3000/restaurant
 - [ ] Add ESLint (if you like)
 
 - [ ] Add SASS (if you like)
+
+#### Example
+
+![restaurant profile header](restaurant-profile-header.png "restaurant profile header")
