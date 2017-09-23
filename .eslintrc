@@ -6,8 +6,5 @@
   },
   "env": {
     "browser": true
-  },
-  "globals": {
-    "__AUTOCOMPLETE__": true
   }
 }
