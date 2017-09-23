@@ -1,6 +1,13 @@
+body, input {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 body {
   padding: 5em;
-  font-family: 'Source Sans Pro', sans-serif;
+}
+
+div.autocomplete input {
+  font-size: 2em;
 }
 
 a {
@@ -11,4 +18,29 @@ h1 {
   color: white;
   background-color: #da3743;
   padding: 1em;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 0 2em;
+}
+
+div.restaurant-profile {
+  padding: 1em;
+  width: 130px;
+  height: 140px;
+}
+
+div.restaurant-profile > img {
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 130px;
+  height: 140px;
 }

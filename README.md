@@ -34,3 +34,53 @@ Go to http://localhost:3000/restaurant
 #### Example
 
 ![restaurant profile header](restaurant-profile-header.png "restaurant profile header")
+
+## Search
+
+```bash
+npm install
+npm run start
+```
+
+Go to http://localhost:3000/search
+
+### Tasks
+
+- [ ] Fix page head `title` tag (AnotherTable)
+
+- [ ] Use the available [API](https://opentable.herokuapp.com) to create a search page (w/ React if you like)
+
+- [ ] Add Node.js watcher (if you like)
+
+- [ ] Add ESLint (if you like)
+
+#### Example
+
+1. Top 10 by city (e.g. /search?city=San%20Francisco&per_page=10)
+
+2. Top 5 by price (e.g. /search?price=3&per_page=5)
+
+## Autocomplete
+
+```bash
+npm install
+npm run start
+```
+
+Go to http://localhost:3000/autocomplete
+
+### Tasks
+
+- [ ] Fix page head `title` tag (AnotherTable)
+
+- [ ] Use the available [API](https://opentable.herokuapp.com) to create a search page (w/ React if you like)
+
+- [ ] Add Node.js watcher (if you like)
+
+- [ ] Add ESLint (if you like)
+
+#### Example
+
+1. Top 10 by city (e.g. /search?city=San%20Francisco&per_page=10)
+
+2. Top 5 by price (e.g. /search?price=3&per_page=5)
