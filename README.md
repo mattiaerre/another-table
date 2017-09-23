@@ -6,12 +6,16 @@ another-table
 
 ```bash
 npm install
-npm run start
+npm run start:dev
 ```
 
 Go to http://localhost:3000/restaurant
 
 ### Tasks
+
+- [X] ~~Add Node.js watcher~~
+
+- [X] ~~Add ESLint~~
 
 - [ ] Fix url `/restaurant` --> `/restaurant/:id` (id = restaurant id, e.g. 1906)
 
@@ -23,11 +27,7 @@ Go to http://localhost:3000/restaurant
 
 - [ ] Format phone number (e.g. `4153918311` --> `+1 415-648-7600`)
 
-- [ ] Add Node.js watcher (if you like)
-
 - [ ] Add LiveReload (if you like)
-
-- [ ] Add ESLint (if you like)
 
 - [ ] Add SASS (if you like)
 
