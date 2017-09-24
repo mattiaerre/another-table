@@ -10,8 +10,19 @@ const restaurant = require('./routes/restaurant');
 const search = require('./routes/search');
 const autocomplete = require('./routes/autocomplete');
 
+const sassMiddleware = require('node-sass-middleware');
+
 const app = express();
 
+app.use(sassMiddleware({
+  src: path.join(__dirname, 'sass'),
+  dest: path.join(__dirname, 'public/stylesheets'),
+  debug: true,
+  outputStyle: 'compressed',
+  prefix: '/stylesheets'
+}));
+
+// view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 

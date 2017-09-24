@@ -19,13 +19,13 @@ Go to http://localhost:3000/restaurant
 
 - [ ] Fix url `/restaurant` --> `/restaurant/:id` (id = restaurant id, e.g. 1906)
 
-- [ ] Fix page head `title` tag (e.g. Perry's Union Street - San Francisco | AnotherTable)
+- [X] Fix page head `title` tag (e.g. Perry's Union Street - San Francisco | AnotherTable)
 
-- [ ] Use the available data to create a restaurant profile header
+- [X] Use the available data to create a **nicer** restaurant profile header
 
-- [ ] Use `price` to show `$` symbol(s)
+- [X] Use `price` to show `$` symbol(s)
 
-- [ ] Format phone number (e.g. `4153918311` --> `+1 415-648-7600`)
+- [X] Format phone number (e.g. `4153918311` --> `+1 415-648-7600`)
 
 - [ ] Add LiveReload (if you like)
 
