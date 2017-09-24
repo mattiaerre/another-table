@@ -4,6 +4,7 @@ const favicon = require('serve-favicon');
 const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
+const reload = require('reload');
 
 const index = require('./routes/index');
 const restaurant = require('./routes/restaurant');
@@ -14,6 +15,8 @@ const sassMiddleware = require('node-sass-middleware');
 
 const app = express();
 
+reload(app);
+
 app.use(sassMiddleware({
   src: path.join(__dirname, 'sass'),
   dest: path.join(__dirname, 'public/stylesheets'),
@@ -22,7 +25,8 @@ app.use(sassMiddleware({
   prefix: '/stylesheets'
 }));
 
-// view engine setup
+app.locals.pretty = true;
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
