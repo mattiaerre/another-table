@@ -9,7 +9,7 @@ router.get('/api', (req, res) => {
 });
 
 router.get('/', (req, res) => {
-  const model = {};
+  const model = { title: 'Search' };
   res.render('search', model);
 });
 
