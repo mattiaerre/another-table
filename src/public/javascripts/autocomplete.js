@@ -1,12 +1,12 @@
-((cities) => {
-  let typingTimer;
+(({ cities, delay }) => {
+  let timer;
   const input = document.getElementById('autocomplete-input');
   input.onkeyup = ((ev) => {
-    clearTimeout(typingTimer);
+    clearTimeout(timer);
     const value = ev.target.value;
-    typingTimer = setTimeout(() => {
+    timer = setTimeout(() => {
       const results = cities.filter(city => (city.toLowerCase().includes(value.toLowerCase())));
       console.log(results);
-    }, 500);
+    }, delay);
   });
-})(__AUTOCOMPLETE__.cities);
+})(__AUTOCOMPLETE__);

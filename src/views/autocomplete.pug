@@ -3,7 +3,8 @@ extends layout
 block content
   script.
     const __AUTOCOMPLETE__ = {};
-    __AUTOCOMPLETE__.cities = !{JSON.stringify(cities).replace(/<\//g, "<\\/")}
+    __AUTOCOMPLETE__.cities = !{JSON.stringify(cities).replace(/<\//g, "<\\/")};
+    __AUTOCOMPLETE__.delay = 500;
   h1 Autocomplete
   .autocomplete
     input(type="text" id="autocomplete-input")
