@@ -3,5 +3,8 @@
   "rules": {
     "jsx-a11y/href-no-hash": "off",
     "comma-dangle": "off"
+  },
+  "env": {
+    "browser": true
   }
 }

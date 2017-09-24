@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./src/bin/www",
-    "start:dev": "nodemon ./src/bin/www"
+    "start:dev": "DEBUG=another-table:* nodemon ./src/bin/www"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
