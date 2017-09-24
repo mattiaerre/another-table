@@ -1,7 +1,7 @@
 const express = require('express');
+const cities = require('../data/cities').cities;
 
 const router = express.Router();
-const cities = require('../data/cities').cities;
 
 router.get('/', (req, res) => {
   const model = { title: 'Autocomplete', cities };

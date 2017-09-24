@@ -1,15 +1,10 @@
 const express = require('express');
-
-const router = express.Router();
 const restaurants = require('../data/restaurants').restaurants;
 
-router.get('/api', (req, res) => {
-  const data = restaurants;
-  res.send(data);
-});
+const router = express.Router();
 
 router.get('/', (req, res) => {
-  const model = { title: 'Search' };
+  const model = { title: 'Search', restaurants };
   res.render('search', model);
 });
 

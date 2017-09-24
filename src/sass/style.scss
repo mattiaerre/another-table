@@ -1,5 +1,8 @@
 @import 'colors';
 
+$borderRadius: 5px;
+$border: 1px solid #999;
+
 body {
   margin: 0;
   padding: 0;
@@ -28,4 +31,38 @@ div.nav-bar {
 
 div.content {
   padding: 2em;
+}
+
+div.search {
+  ul {
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    margin: 0;
+    padding: 0;
+    li {
+      margin: 0;
+      padding: 0;
+      div.restaurant {
+        margin: 0.125em;
+        padding: 0;
+        border-radius: $borderRadius;
+        border: $border;
+        height: 130px;
+        width: 130px;
+        opacity: 0.75;
+        background-position: center;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+div.restaurant {
+  img {
+    border-radius: $borderRadius;
+    border: $border;
+  }
 }

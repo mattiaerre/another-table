@@ -1,12 +1,9 @@
 const express = require('express');
-
-const router = express.Router();
-
-const restaurants = require('../data/restaurants.json').restaurants;
-
 const PNF = require('google-libphonenumber').PhoneNumberFormat;
 const phoneUtil = require('google-libphonenumber').PhoneNumberUtil.getInstance();
+const restaurants = require('../data/restaurants.json').restaurants;
 
+const router = express.Router();
 
 const dollars = {
   2: '$$',
