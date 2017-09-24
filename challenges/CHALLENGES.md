@@ -31,7 +31,7 @@ Go to http://localhost:3000/restaurant
 
 - [ ] Add SASS (if you like)
 
-#### Example
+### Example
 
 ![restaurant profile header](restaurant-profile-header.png "restaurant profile header")
 
@@ -48,7 +48,7 @@ Go to http://localhost:3000/search
 
 - [ ] Use the available [API](https://opentable.herokuapp.com) to create a search page (w/ React if you like)
 
-#### Example
+### Example
 
 1. Top 10 by city (e.g. /search?city=San%20Francisco&per_page=10)
 
@@ -67,6 +67,16 @@ Go to http://localhost:3000/autocomplete
 
 - TODO
 
-#### Example
+### Example
 
 1. TODO
+
+## SEO friendly URLs
+
+### Tasks
+
+- TODO
+
+### Example
+
+1. `restaurant/1906` --> `restaurant/foreign-cinema`
