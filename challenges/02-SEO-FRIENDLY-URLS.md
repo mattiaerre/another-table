@@ -14,7 +14,7 @@ Restaurant details page URLs should not contain integer identifiers but SEO frie
 
 3. http://localhost:3000/restaurant/boulevard
 
-## How to fix
+## How to fix?
 
 - 112807
 

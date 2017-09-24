@@ -1,6 +1,6 @@
 # Title
 
-TODO
+Use the available data to create a **nicer** restaurant profile header.
 
 ## URL
 
@@ -12,14 +12,12 @@ TODO
 
 - [ ] Fix page head `title` tag (e.g. Perry's Union Street - San Francisco | AnotherTable)
 
-- [ ] Use the available data to create a **nicer** restaurant profile header
-
 - [ ] Use `price` to show `$` symbol(s)
 
 - [ ] Format phone number (e.g. `4153918311` --> `+1 415-648-7600`)
 
+- [ ] Do some CSS stuff!
+
 ## Examples
 
-1. Example 1
-
-2. Example 2
+![Restaurant profile header](restaurant-profile-header.png "Restaurant profile header")
