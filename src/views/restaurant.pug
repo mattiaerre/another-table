@@ -1,13 +1,14 @@
 extends layout
 
 block content
-  ul
-    li= name
-    li= price
-    li= area
-    li= address
-    li= city
-    li= state
-    li= postal_code
-    li= phone
-  img(src= image_url)
+  .restaurant-profile-header
+    .img-container
+      img(src= image_url)
+    .description
+      h1= name
+      div= price
+    .contacts
+      .area= area
+      div= address
+      div= `${city}, ${state} ${postal_code}`
+      div= phone
