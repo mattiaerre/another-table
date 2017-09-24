@@ -5,7 +5,8 @@
     "comma-dangle": "off"
   },
   "env": {
-    "browser": true
+    "browser": true,
+    "jest": true
   },
   "globals": {
     "__AUTOCOMPLETE__": true
