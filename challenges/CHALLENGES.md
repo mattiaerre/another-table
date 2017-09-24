@@ -1,15 +1,13 @@
 # another-table
 
-another-table
-
-## Restaurant profile page
-
 ```bash
 npm install
 npm run start:dev
 ```
 
 Go to http://localhost:3000/restaurant
+
+## [Challenges](challenges)
 
 ### Tasks
 
