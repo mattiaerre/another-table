@@ -1,6 +1,6 @@
 # Index
 
-Small improvements
+Small improvements.
 
 ## URL
 
