@@ -1,6 +1,6 @@
 # Index
 
-Small improvements.
+Implement date, time, and party control (A.K.A. DTP).
 
 ## URL
 
@@ -8,19 +8,21 @@ Small improvements.
 
 ## Tasks
 
-- [ ] Fix page head `title` tag (e.g. `Index | AnotherTable`)
-
-- [ ] Add date, time and party (A.K.A. DTP) control (markup only)
-
 - [ ] Party component as dropdown; "1 person" to "20 people" plus "Large party"
 
+- [ ] The default option should be "4 people"
+
 - [ ] Date component as calendar
+
+- [ ] The default value should be _today_
 
 - [ ] Time component as dropdown; "12:00 AM" to "11:30 PM" (30' gap between slots)
 
 - [ ] Add free text search
 
 - [ ] Do some CSS stuff!
+
+- [ ] Gather data from control when clicking on the **Find a Table** button
 
 ## Example
 
