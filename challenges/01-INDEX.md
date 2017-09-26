@@ -22,6 +22,6 @@ Small improvements.
 
 - [ ] Do some CSS stuff!
 
-## Examples
+## Example
 
 ![DTP](dtp.png "DTP")
