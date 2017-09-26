@@ -3,7 +3,7 @@
 $borderRadius: 5px;
 $border: 1px solid #999;
 
-body {
+body, option, input, button {
   margin: 0;
   padding: 0;
   font-family: 'Source Sans Pro', sans-serif;
@@ -63,5 +63,64 @@ div.restaurant {
   img {
     border-radius: $borderRadius;
     border: $border;
+  }
+}
+
+div.index {
+  border: 1px solid #aaa;
+  padding: 1em;
+  border-radius: 5px;
+
+  h2 {
+    color: #333;
+  }
+
+  div.container {
+    display: flex;
+
+    > div {
+      border-top: 1px;
+      border-right: 0;
+      border-bottom: 1px;
+      border-left: 1px;
+      border-style: solid;
+      border-color: #ccc;
+      width: 100%;
+      padding: 0.5em;
+      display: flex;
+      align-items: center;
+
+      &:last-child {
+        border-right: 1px solid #ccc;
+      }
+    }
+
+    select, input, button {
+      font-size: 1em;
+    }
+
+    div.search {
+      flex-grow: 0;
+      flex-shrink: 0;
+      flex-basis: 25%;
+
+      input {
+        width: 100%;
+      }
+    }
+
+    div.find {
+      padding: 0;
+      background-color: $red;
+
+      button {
+        border: 0;
+        padding: 0.5em;
+        width: 100%;
+        background: transparent;
+        color: $white;
+        font-weight: bold;
+      }
+    }
   }
 }

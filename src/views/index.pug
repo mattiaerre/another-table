@@ -1,3 +1,22 @@
 extends layout
 
 block content
+  .index
+    .dtp 
+      h2 Make restaurant reservations the easy way
+      .container
+        .party
+          select#party
+            each party, i in parties
+              option(value= i selected= (i == 3)) #{party}
+        .day
+          input(type="date" value= today.date id="date")
+        .time
+          select#time
+            each time, i in times
+              option(value= i selected= (time == today.time)) #{time}
+        .search
+          input(type="text" placeholder="Location, Restaurant, or Cuisine" id="search")
+        .find
+          button#find-a-table Find a Table
+  script(src="javascripts/index.js")
