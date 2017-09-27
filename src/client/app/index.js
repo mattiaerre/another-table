@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-const restaurant = window.__RESTAURANT__; // eslint-disable-line no-underscore-dangle
+const restaurant = window.__RESTAURANT__;
 
 const root = document.getElementsByClassName('reactaurant')[0];
 

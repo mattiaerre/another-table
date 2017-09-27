@@ -9,4 +9,4 @@
       console.log(results);
     }, delay);
   });
-})(__AUTOCOMPLETE__);
+})(window.__AUTOCOMPLETE__);

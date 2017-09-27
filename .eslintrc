@@ -3,12 +3,10 @@
   "rules": {
     "jsx-a11y/href-no-hash": "off",
     "comma-dangle": "off",
-    "react/jsx-filename-extension": "off"
+    "react/jsx-filename-extension": "off",
+    "no-underscore-dangle": "off"
   },
   "env": {
     "browser": true
-  },
-  "globals": {
-    "__AUTOCOMPLETE__": true
   }
 }
