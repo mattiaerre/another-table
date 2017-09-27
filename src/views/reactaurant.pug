@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  script.
+    window.__RESTAURANT__ = !{JSON.stringify(restaurant).replace(/<\//g, "<\\/")};
+  .reactaurant
+  script(src="javascripts/bundle.js")

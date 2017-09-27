@@ -2,7 +2,8 @@
   "extends": "airbnb",
   "rules": {
     "jsx-a11y/href-no-hash": "off",
-    "comma-dangle": "off"
+    "comma-dangle": "off",
+    "react/jsx-filename-extension": "off"
   },
   "env": {
     "browser": true
