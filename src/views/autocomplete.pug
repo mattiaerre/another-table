@@ -2,9 +2,9 @@ extends layout
 
 block content
   script.
-    const __AUTOCOMPLETE__ = {};
-    __AUTOCOMPLETE__.cities = !{JSON.stringify(cities).replace(/<\//g, "<\\/")};
-    __AUTOCOMPLETE__.delay = 500;
+    window.__AUTOCOMPLETE__ = {};
+    window.__AUTOCOMPLETE__.cities = !{JSON.stringify(cities).replace(/<\//g, "<\\/")};
+    window.__AUTOCOMPLETE__.delay = 500;
   .autocomplete
     input(type="text" id="autocomplete-input")
   script(src="javascripts/autocomplete.js")
