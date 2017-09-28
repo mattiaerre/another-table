@@ -1,0 +1,24 @@
+div#app {
+  div.price-range {
+    padding: 1em;
+    border: 1px solid #999;
+    border-radius: 5px;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+
+      li {
+        font-size: xx-large;
+      }
+    }
+
+    div {
+      margin-top: 1em;
+      font-size: small;
+    }
+  }
+}
