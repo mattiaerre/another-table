@@ -3,9 +3,8 @@ const restaurants = require('../data/restaurants.json').restaurants;
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-  const restaurant = restaurants.find(item => item.id === 1906);
-  res.render('reactaurant', restaurant);
+router.get('/restaurants', (req, res) => {
+  res.send({ data: restaurants });
 });
 
 module.exports = router;

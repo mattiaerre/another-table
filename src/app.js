@@ -10,7 +10,7 @@ const index = require('./routes/index');
 const restaurant = require('./routes/restaurant');
 const search = require('./routes/search');
 const autocomplete = require('./routes/autocomplete');
-const reactaurant = require('./routes/reactaurant');
+const api = require('./routes/api');
 
 const sassMiddleware = require('node-sass-middleware');
 
@@ -42,7 +42,7 @@ app.use('/', index);
 app.use('/restaurant', restaurant);
 app.use('/search', search);
 app.use('/autocomplete', autocomplete);
-app.use('/reactaurant', reactaurant);
+app.use('/api/v1', api);
 
 app.use((req, res, next) => {
   const err = new Error('Not Found');
