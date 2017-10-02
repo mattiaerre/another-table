@@ -5,6 +5,8 @@ const {
   GraphQLString
 } = require('graphql');
 
+const restaurants = require('./restautants-field');
+
 const QueryType = new GraphQLObjectType({
   name: 'Query',
   fields: {
@@ -15,7 +17,8 @@ const QueryType = new GraphQLObjectType({
     answer: {
       type: GraphQLInt,
       resolve: () => 42
-    }
+    },
+    restaurants
   }
 });
 
