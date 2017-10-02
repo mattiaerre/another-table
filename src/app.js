@@ -5,26 +5,19 @@ const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const reload = require('reload');
+const sassMiddleware = require('node-sass-middleware');
+const graphqlHTTP = require('express-graphql');
 
 const index = require('./routes/index');
 const restaurant = require('./routes/restaurant');
 const search = require('./routes/search');
 const autocomplete = require('./routes/autocomplete');
 const api = require('./routes/api');
-
-const sassMiddleware = require('node-sass-middleware');
+const schema = require('./graphql/schema');
 
 const app = express();
 
 reload(app);
-
-app.use(sassMiddleware({
-  src: path.join(__dirname, 'sass'),
-  dest: path.join(__dirname, 'public/stylesheets'),
-  debug: true,
-  outputStyle: 'compressed',
-  prefix: '/stylesheets'
-}));
 
 app.locals.pretty = true;
 
@@ -43,6 +36,19 @@ app.use('/restaurant', restaurant);
 app.use('/search', search);
 app.use('/autocomplete', autocomplete);
 app.use('/api/v1', api);
+
+app.use(sassMiddleware({
+  src: path.join(__dirname, 'sass'),
+  dest: path.join(__dirname, 'public/stylesheets'),
+  debug: true,
+  outputStyle: 'compressed',
+  prefix: '/stylesheets'
+}));
+
+app.use('/graphql', graphqlHTTP({
+  schema,
+  graphiql: true
+}));
 
 app.use((req, res, next) => {
   const err = new Error('Not Found');
