@@ -1,6 +1,6 @@
 # Index
 
-Implement date, time, and party control (A.K.A. DTP).
+Implement date, time, and party widget (A.K.A. DTP).
 
 ## URL
 
@@ -22,7 +22,7 @@ Implement date, time, and party control (A.K.A. DTP).
 
 - [ ] Do some CSS stuff!
 
-- [ ] Gather data from control when clicking on the **Find a Table** button
+- [ ] Gather data from the inputs when clicking on the **Find a Table** button
 
 ## Example
 
