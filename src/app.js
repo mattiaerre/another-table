@@ -43,7 +43,9 @@ app.use(
     dest: path.join(__dirname, 'public/stylesheets'),
     debug: true,
     outputStyle: 'compressed',
-    prefix: '/stylesheets'
+    prefix: '/stylesheets',
+    force: true,
+    response: true // info: https://github.com/sass/node-sass-middleware#options
   })
 );
 
