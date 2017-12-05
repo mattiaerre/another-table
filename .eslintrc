@@ -1,12 +1,14 @@
 {
+  "env": {
+    "browser": true
+  },
+  "parser": "babel-eslint",
   "extends": "airbnb",
   "rules": {
+    "arrow-parens": "off",
     "comma-dangle": "off",
     "jsx-a11y/href-no-hash": "off",
     "no-underscore-dangle": "off",
     "react/jsx-filename-extension": "off"
-  },
-  "env": {
-    "browser": true
   }
 }

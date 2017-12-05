@@ -37,18 +37,23 @@ app.use('/search', search);
 app.use('/autocomplete', autocomplete);
 app.use('/api/v1', api);
 
-app.use(sassMiddleware({
-  src: path.join(__dirname, 'sass'),
-  dest: path.join(__dirname, 'public/stylesheets'),
-  debug: true,
-  outputStyle: 'compressed',
-  prefix: '/stylesheets'
-}));
+app.use(
+  sassMiddleware({
+    src: path.join(__dirname, 'sass'),
+    dest: path.join(__dirname, 'public/stylesheets'),
+    debug: true,
+    outputStyle: 'compressed',
+    prefix: '/stylesheets'
+  })
+);
 
-app.use('/graphql', graphqlHTTP({
-  schema,
-  graphiql: true
-}));
+app.use(
+  '/graphql',
+  graphqlHTTP({
+    schema,
+    graphiql: true
+  })
+);
 
 app.use((req, res, next) => {
   const err = new Error('Not Found');
