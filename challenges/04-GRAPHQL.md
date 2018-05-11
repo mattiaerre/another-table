@@ -2,6 +2,10 @@
 
 Implement a GraphQL endpoint that consumes this [unofficial OpenTable API](https://opentable.herokuapp.com/).
 
+## URL
+
+[http://localhost:3000/graphql](http://localhost:3000/graphql)
+
 ## Tasks
 
 - [ ] Add a `restaurants` field to the existing QueryType object

@@ -10,6 +10,10 @@ npm run start:dev
 npm run webpack -- --watch // iTerm, new tab
 ```
 
+## URL
+
+[http://localhost:3000/restaurant](http://localhost:3000/restaurant)
+
 ## Tasks
 
 - [ ] Fix `Uncaught Error: Target container is not a DOM element.`
