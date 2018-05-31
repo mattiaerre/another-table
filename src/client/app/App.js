@@ -1,7 +1,11 @@
 import React from 'react';
+import Stats from './Stats';
 
 const App = () => (
-  <h2>Stats Widget</h2>
+	<div>
+  		<h2>Stats Widget</h2>
+  		<Stats />
+  </div>
 );
 
 export default App;
