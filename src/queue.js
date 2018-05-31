@@ -1,13 +1,13 @@
 class Stack {
-  _ = [];
+  array1 = [];
 
   push = x => {
-    this._.push(x);
+    this.array1.push(x);
   };
 
-  pop = () => this._.pop();
+  pop = () => this.array1.pop();
 
-  isEmpty = () => this._.length === 0;
+  isEmpty = () => this.array1.length === 0;
 }
 
 class Queue {
