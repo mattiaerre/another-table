@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "prettier":
-      "prettier --single-quote --trailing-comma none --write '{src,test}/**/*.js'",
+    "prettier": "prettier --single-quote --trailing-comma none --write '{src,test}/**/*.js'",
     "start": "node ./src/bin/www",
     "start:dev": "DEBUG=another-table:* nodemon ./src/bin/www",
     "test": "jest",
@@ -33,6 +32,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
     "eslint": "^4.7.2",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-plugin-import": "^2.7.0",
