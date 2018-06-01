@@ -1,0 +1,15 @@
+.stats-container {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.price-stats {
+  width: 25%;
+  display: inline-block;
+  font-size: 28px;
+}
+
+.stats-disclaimer {
+  margin: 16px 0 0 0;
+  font-size: 12px;
+}
