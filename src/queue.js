@@ -12,6 +12,7 @@ class Stack {
 
 class Queue {
   stack1 = new Stack();
+
   stack2 = new Stack();
 
   enqueue = x => {

@@ -1,5 +1,5 @@
 const express = require('express');
-const restaurants = require('../data/restaurants.json').restaurants;
+const { restaurants } = require('../data/restaurants.json');
 
 const router = express.Router();
 

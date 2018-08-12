@@ -3,12 +3,12 @@
   const input = document.getElementById('autocomplete-input');
   input.onkeyup = ev => {
     clearTimeout(timer);
-    const value = ev.target.value;
+    const { value } = ev.target;
     timer = setTimeout(() => {
       const results = cities.filter(city =>
         city.toLowerCase().includes(value.toLowerCase())
       );
-      console.log(results);
+      console.log(results); // eslint-disable-line no-console
     }, delay);
   };
 })(window.__AUTOCOMPLETE__);

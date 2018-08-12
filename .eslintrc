@@ -8,8 +8,11 @@
   "rules": {
     "arrow-parens": "off",
     "comma-dangle": "off",
+    "function-paren-newline": "off",
+    "implicit-arrow-linebreak": "off",
     "jsx-a11y/href-no-hash": "off",
     "no-underscore-dangle": "off",
-    "react/jsx-filename-extension": "off"
+    "react/jsx-filename-extension": "off",
+    "react/jsx-one-expression-per-line": "off"
   }
 }

@@ -1,5 +1,5 @@
 const express = require('express');
-const restaurants = require('../data/restaurants').restaurants;
+const { restaurants } = require('../data/restaurants');
 
 const router = express.Router();
 
