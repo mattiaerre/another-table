@@ -2,13 +2,19 @@ extends layout
 
 block content
   .restaurant
-    .img-container
-      img(src= image_url)
-    .description
-      h1= name
-      div= price
-    .contacts
-      .area= area
-      div= address
-      div= `${city}, ${state} ${postal_code}`
-      div= phone
+    .info
+      .img-container
+        img(src= image_url)
+      .description
+        h1= name
+        div= price
+      .contacts
+        .area= area
+        div= address
+        div= `${city}, ${state} ${postal_code}`
+        div= phone
+    .menu
+      if includeMenuV2
+        include _menu-v2.pug
+      else
+        include _menu-v1.pug
