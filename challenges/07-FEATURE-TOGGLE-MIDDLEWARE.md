@@ -14,9 +14,9 @@ Add an express middleware that attaches to the request object a `features` data 
 
 - Add a `features.js` file containing the [Application-level middleware function](https://expressjs.com/en/guide/using-middleware.html)
 
-- Wire the middleware w/ the existing app
+- Add the middleware to the existing app
 
-- Use the middleware in the `restaurant.js` route file in order to set the `includeMenuV2` variable
+- Use the middleware in the `restaurant.js` route file in order to set the `includeMenuV2` variable:
 
 ```
 router.get('/:id', (req, res) => {
@@ -31,9 +31,3 @@ router.get('/:id', (req, res) => {
   res.render('restaurant', model);
 });
 ```
-
-## Examples
-
-1. Example 1
-
-2. Example 2
