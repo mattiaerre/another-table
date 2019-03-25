@@ -12,7 +12,7 @@ npm run webpack -- --watch // iTerm, new tab
 
 ## URL
 
-[http://localhost:3000/restaurant](http://localhost:3000/restaurant)
+[http://localhost:3000](http://localhost:3000)
 
 ## Tasks
 
@@ -24,4 +24,4 @@ npm run webpack -- --watch // iTerm, new tab
 
 ## Examples
 
-![Stats Widget](stats-widget.png "Stats Widget")
+![Stats Widget](stats-widget.png 'Stats Widget')
