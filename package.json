@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "postinstall": "npm run webpack",
-    "prettier": "prettier --single-quote --trailing-comma none --write '{src,test}/**/*.js'",
+    "prettier": "prettier '{challenges,src}/**/*.{js,md}'",
+    "prettier:fix": "npm run prettier -- --write",
     "start": "node ./src/bin/www",
     "start:dev": "DEBUG=another-table:* nodemon ./src/bin/www",
     "test": "jest",

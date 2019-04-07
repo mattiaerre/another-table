@@ -26,4 +26,4 @@ Implement date, time, and party widget (A.K.A. DTP).
 
 ## Example
 
-![DTP](dtp.png "DTP")
+![DTP](dtp.png 'DTP')

@@ -2,7 +2,7 @@
 
 Description
 
-![Additional image](additional-image.png "Additional image")
+![Additional image](additional-image.png 'Additional image')
 
 ## URL
 

@@ -1,20 +1,20 @@
 const {
-  GraphQLSchema,
-  GraphQLObjectType,
   GraphQLInt,
+  GraphQLObjectType,
+  GraphQLSchema,
   GraphQLString
 } = require('graphql');
 
 const QueryType = new GraphQLObjectType({
   name: 'Query',
   fields: {
-    hello: {
-      type: GraphQLString,
-      resolve: () => 'world'
-    },
     answer: {
-      type: GraphQLInt,
-      resolve: () => 42
+      resolve: () => 42,
+      type: GraphQLInt
+    },
+    hello: {
+      resolve: () => 'world',
+      type: GraphQLString
     }
   }
 });
