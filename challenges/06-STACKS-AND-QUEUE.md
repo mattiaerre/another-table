@@ -8,8 +8,8 @@ JavaScript classes, then implement the `Queue.dequeue()` method w/ a
 
 ## Tasks
 
-* add "should dequeue 1 and 2" test
+- add "should dequeue 1 and 2" test
 
-* add "should dequeue 1 then 2 then 3" test
+- add "should dequeue 1 then 2 then 3" test
 
-* add "should dequeue 1, 2 and 3 then 4 and 5" test
+- add "should dequeue 1, 2 and 3 then 4 and 5" test

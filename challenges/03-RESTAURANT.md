@@ -20,4 +20,4 @@ Use the available data to create a **nicer** restaurant profile header.
 
 ## Examples
 
-![Restaurant profile header](restaurant-profile-header.png "Restaurant profile header")
+![Restaurant profile header](restaurant-profile-header.png 'Restaurant profile header')
