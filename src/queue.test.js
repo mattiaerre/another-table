@@ -1,6 +1,6 @@
 import Queue from './queue';
 
-describe('Queue', () => {
+describe.skip('Queue', () => {
   const queue = new Queue();
 
   test('should dequeue 1', () => {
