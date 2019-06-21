@@ -2,15 +2,14 @@ doctype html
 html
   head
     title= title
-    link(href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600&subset=latin" rel="stylesheet")
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/css/style.css')
   body
-    .nav-bar
+    navbar
       ul
         li
           a(href="/") AnotherTable
         li
           a(href="/search") Search
-    .content
+    main
       block content
     script(src="/reload/reload.js")

@@ -1,9 +1,7 @@
 extends layout
 
 block content
-  .search
-    ul
-      for restaurant in restaurants
-        li
-          a(href= `/restaurant/${restaurant.id}`)
-            .restaurant(style="background-image: url("+ restaurant.image_url +");")
+  ul.restaurants-list
+    for restaurant in restaurants
+      li.restaurants-list__list-item(style="background-image: url("+ restaurant.image_url +");")
+        a(href= `/restaurant/${restaurant.id}`)
