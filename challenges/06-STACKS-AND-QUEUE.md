@@ -1,7 +1,7 @@
 # Title
 
 Given a [`Stack`](../src/queue.js#L1) and a [`Queue`](../src/queue.js#13)
-JavaScript classes, then implement the `Queue.dequeue()` method w/ a
+JavaScript classes, implement the `Queue.dequeue()` method w/ a
 [testing first](../src/queue.test.js) approach.
 
 > N.B.: type `npm t` to run the tests
