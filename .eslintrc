@@ -11,7 +11,10 @@
     "function-paren-newline": "off",
     "implicit-arrow-linebreak": "off",
     "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/label-has-associated-control": "off",
+    "jsx-a11y/label-has-for": "off",
     "no-underscore-dangle": "off",
+    "object-curly-newline": "off",
     "react/jsx-filename-extension": "off",
     "react/jsx-one-expression-per-line": "off"
   }
