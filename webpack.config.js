@@ -13,9 +13,13 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.jsx?/,
+        loader: ['style-loader', 'css-loader'],
+        test: /\.css$/
+      },
+      {
         include: APP_DIR,
-        loader: 'babel-loader'
+        loader: 'babel-loader',
+        test: /\.jsx?/
       }
     ]
   }
