@@ -1,4 +1,4 @@
-# Index
+# DTP
 
 Implement date, time, and party widget (A.K.A. DTP).
 
