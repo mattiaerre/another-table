@@ -10,9 +10,9 @@ Description
 
 ## Tasks
 
-- A task
+- [ ] A task
 
-- Another task
+- [ ] Another task
 
 ## Examples
 

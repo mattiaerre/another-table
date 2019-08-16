@@ -1,4 +1,4 @@
-# Title
+# SEO friendly URLs
 
 Restaurant details page URLs should not contain integer identifiers but SEO friendly names.
 

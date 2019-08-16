@@ -1,4 +1,4 @@
-# Title
+# Restaurant profile header
 
 Use the available data to create a **nicer** restaurant profile header.
 

@@ -1,4 +1,4 @@
-# Title
+# GraphQL
 
 Implement a GraphQL endpoint that consumes this [unofficial OpenTable API](https://opentable.herokuapp.com/).
 
