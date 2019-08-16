@@ -20,7 +20,17 @@ class Queue {
     this.stack1.push(x);
   };
 
-  dequeue = () => {};
+  dequeue = () => {
+    if (this.isEmpty()) {
+      throw new Error('Nothing to dequeue.');
+    }
+    if (this.stack2.isEmpty()) {
+      while (!this.stack1.isEmpty()) {
+        this.stack2.push(this.stack1.pop());
+      }
+    }
+    return this.stack2.pop();
+  };
 
   isEmpty = () => this.stack1.isEmpty() && this.stack2.isEmpty();
 }
