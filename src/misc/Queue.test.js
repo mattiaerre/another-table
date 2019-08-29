@@ -1,4 +1,4 @@
-import Queue from './queue';
+import Queue from './Queue';
 
 describe.skip('Queue', () => {
   const queue = new Queue();
