@@ -11,7 +11,7 @@ function blocklist(restaurant) {
 router.get('/', (req, res) => {
   const model = {
     title: 'Search',
-    restaurants: restaurants.filter(blocklist).map(restaurant => ({
+    restaurants: restaurants.filter(blocklist).map((restaurant) => ({
       ...restaurant,
       resizer_url: `https://resizer.otstatic.com/v2/profiles/legacy/${restaurant.id}.jpg`
     }))

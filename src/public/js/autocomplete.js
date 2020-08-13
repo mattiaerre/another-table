@@ -1,11 +1,11 @@
 (({ cities, delay }) => {
   let timer;
   const input = document.getElementById('autocomplete-input');
-  input.onkeyup = ev => {
+  input.onkeyup = (ev) => {
     clearTimeout(timer);
     const { value } = ev.target;
     timer = setTimeout(() => {
-      const results = cities.filter(city =>
+      const results = cities.filter((city) =>
         city.toLowerCase().includes(value.toLowerCase())
       );
       console.log(results); // eslint-disable-line no-console
