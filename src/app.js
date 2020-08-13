@@ -1,7 +1,7 @@
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const express = require('express');
-const graphqlHTTP = require('express-graphql');
+const { graphqlHTTP } = require('express-graphql');
 const logger = require('morgan');
 const path = require('path');
 const reload = require('reload');

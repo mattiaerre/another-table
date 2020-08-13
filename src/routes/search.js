@@ -1,6 +1,6 @@
 const express = require('express');
 const { restaurants } = require('../data/restaurants');
-const { restart } = require('nodemon');
+const factory = require('./factory');
 
 const router = express.Router();
 
@@ -11,10 +11,7 @@ function blocklist(restaurant) {
 router.get('/', (req, res) => {
   const model = {
     title: 'Search',
-    restaurants: restaurants.filter(blocklist).map((restaurant) => ({
-      ...restaurant,
-      resizer_url: `https://resizer.otstatic.com/v2/profiles/legacy/${restaurant.id}.jpg`
-    }))
+    restaurants: restaurants.filter(blocklist).map(factory)
   };
   res.render('search', model);
 });
