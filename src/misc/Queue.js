@@ -2,7 +2,7 @@
 class Stack {
   array1 = [];
 
-  push = x => {
+  push = (x) => {
     this.array1.push(x);
   };
 
@@ -16,7 +16,7 @@ class Queue {
 
   stack2 = new Stack();
 
-  enqueue = x => {
+  enqueue = (x) => {
     this.stack1.push(x);
   };
 
