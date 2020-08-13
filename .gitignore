@@ -1,6 +1,5 @@
 coverage
 node_modules
-style.css
 bundle.*
 .DS_Store
 package-lock.json

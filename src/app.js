@@ -3,7 +3,6 @@ const cookieParser = require('cookie-parser');
 const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const logger = require('morgan');
-const sassMiddleware = require('node-sass-middleware');
 const path = require('path');
 const reload = require('reload');
 const favicon = require('serve-favicon');
@@ -36,18 +35,6 @@ app.use('/autocomplete', autocomplete);
 app.use('/', index);
 app.use('/restaurant', restaurant);
 app.use('/search', search);
-
-app.use(
-  sassMiddleware({
-    src: path.join(__dirname, 'sass'),
-    dest: path.join(__dirname, 'public/stylesheets'),
-    debug: true,
-    outputStyle: 'compressed',
-    prefix: '/stylesheets',
-    force: true,
-    response: true // info: https://github.com/sass/node-sass-middleware#options
-  })
-);
 
 app.use(
   '/graphql',

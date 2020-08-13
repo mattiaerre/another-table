@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+div.nav-bar {
+  background: #f7f7f7;
+}
+div.nav-bar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+div.nav-bar ul li {
+  padding: 0.5em;
+}
+div.nav-bar ul li a {
+  color: #717171;
+}
+div.nav-bar ul li a:link {
+  text-decoration: none;
+}
+div.content {
+  padding: 2em;
+}
+div.search ul {
+  list-style: none;
+  display: flex;
+  flex-flow: wrap;
+  margin: 0;
+  padding: 0;
+}
+div.search ul li {
+  margin: 0;
+  padding: 0;
+}
+div.search ul li div.restaurant {
+  margin: 0.125em;
+  padding: 0;
+  border-radius: 5px;
+  border: 1px solid #999;
+  height: 130px;
+  width: 130px;
+  opacity: 0.75;
+  background-position: center;
+}
+div.search ul li div.restaurant:hover {
+  opacity: 1;
+}
+div.restaurant img {
+  border-radius: 5px;
+  border: 1px solid #999;
+}
