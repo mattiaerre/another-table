@@ -1,6 +1,6 @@
 # DTP
 
-Implement date, time, and party widget (A.K.A. DTP).
+Implement the date, time, and party widget (A.K.A. DTP).
 
 ## URL
 
