@@ -1,6 +1,6 @@
 # GraphQL
 
-Implement a GraphQL endpoint that consumes this [unofficial OpenTable API](https://opentable.herokuapp.com/).
+Implement a GraphQL endpoint that consumes an [unofficial OpenTable API](https://opentable.herokuapp.com/).
 
 ## URL
 
